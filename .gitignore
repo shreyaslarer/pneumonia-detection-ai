@@ -24,8 +24,8 @@ Thumbs.db
 # Dataset (too large for GitHub)
 archive/
 
-# Model files (optional - uncomment if model is too large)
-# *.h5
+# Model files (too large for GitHub)
+*.h5
 
 # Logs
 *.log

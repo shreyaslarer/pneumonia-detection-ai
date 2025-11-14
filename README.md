@@ -15,10 +15,13 @@ A deep learning-based medical image classification system that detects pneumonia
 pip install -r requirements.txt
 ```
 
-### 2. Train Model (Optional - model already included)
+### 2. Train Model
 ```bash
 python train_balanced.py
 ```
+This will create `best_pneumonia_model.h5` (138 MB) with 84.94% accuracy.
+
+**Note:** Pre-trained model not included due to GitHub size limits. Train it yourself or download from [releases](https://github.com/shreyaslarer/pneumonia-detection-ai/releases).
 
 ### 3. Run Web Application
 ```bash
